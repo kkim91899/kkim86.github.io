@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<title>Man Making Cake</title>
+	<link rel="stylesheet" type="text/css" href="./css/import.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header> 
+		<div class="header_wrap">
+			<div class="logo">
+				<a href="index.html"><img src="./images/common/logo.png" alt="로고" /></a>
+			</div>
+			<nav class="pc_menu">
+				<ul>
+					<li><a href="javascript:;">Story</a></li>
+					<li><a href="javascript:;">Cakes</a></li>
+					<li><a href="javascript:;">Order</a></li>
+					<li><a href="javascript:;">Location</a></li>
+				</ul>
+			</nav>
+			<div class="mobie_menu">
+				<input type="checkbox" id="check_box" />
+				<label for="check_box">
+				<span></span>
+				<span></span>
+				<span></span>
+				</label>
+				<div id="side_menu">
+					<ul>
+						<li><a href="#">Story</a></li>
+						<li><a href="#">Cakes</a></li>
+						<li><a href="#">Order</a></li>
+						<li><a href="#">Location</a></li>
+						<li><img src="./images/common/menu_ob.png" alt="케이크" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	
+	<script>
+		$(window).scroll(function(){
+			if($(document).scrollTop() > 0) {
+				$('header').addClass('scrolled');
+			} else {
+				$('header').removeClass('scrolled');
+			}
+		});
+	</script>
+
+	<main>
+		<section id="visual">
+			<div class="inner">
+				<div class="text_box">
+					<h1>우리에게 즐거움과<br /> 행복을 주는 케이크!</h1>
+					<p>전문 케이크 아티스트팀이 꿈 같은 케이크를 만들어 드립니다.<br /> 우리는 고객님만의 케이크를 맞춤화하기 위해 고객님의 의견을 적극 반영합니다.</p>
+					<div class="visual_button">
+						<a href="#">Order now</a>
+					</div>
+				</div>
+				<ul class="slider wow fadeInRight" data-wow-delay="0.3s">
+					<li class="slrider_on"><img src="./images/main/visual01.png" alt="visual01" /></li>
+					<li class="slrider_on"><img src="./images/main/visual02.png" alt="visual02" /></li>
+					<li class="slrider_on"><img src="./images/main/visual03.png" alt="visual03" /></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="content01" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.9s">
+			<div class="outer">
+				<div class="wave_outer">
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+				</div>
+				<div class="inner">
+					<ul>
+						<li>
+							<a href="javascript:;">
+								<div>
+									<img src="./images/main/birthday.png" alt="케이크" />
+								</div>
+								<h2>Birthday</h2>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div>
+									<img src="./images/main/wedding.png" alt="케이크" />
+								</div>
+								<h2>Wedding</h2>
+							</a>				
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div>
+									<img src="./images/main/Anniversary.png" alt="케이크" />
+								</div>
+								<h2>Anniversary</h2>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div>
+									<img src="./images/main/kids.png" alt="케이크" />
+								</div>
+								<h2>Kids</h2>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div>
+									<img src="./images/main/pets.png" alt="케이크" />
+								</div>
+								<h2>Pets</h2>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="wave_outer_bottom">
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+					<div class="wave_inner01"><p class="ob_wave01"></p></div>
+					<div class="wave_inner02"><p class="ob_wave02"></p></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="content02">
+			<div class="inner">
+				<div class="content_box">
+					<div>
+						<img src="./images/main/co02_img.png" alt="image" />
+					</div>
+					<div>
+						<h3>Make a order of cake</h3>
+						<p>고객님이 생각하시는 디자인, 맛, 배달 서비스까지 모든 것을 갖추고 있습니다.<br /> 간략한 주문서를 작성해주시면 금일 또는 다음날 전화드릴 예정입니다.</p>
+					</div>
+				</div>
+				<form>
+					<ul>
+						<li>
+							<p>이름</p>
+							<div><input type="text" name="name" autocomplete="off" /></div>
+						</li>
+						<li>
+							<p>이메일</p>
+							<div><input type="text" name="e-mail" autocomplete="off" /></div>
+						</li>
+						<li>
+							<p>전화번호</p>
+							<div><input type="text" name="number" autocomplete="off" /></div>
+						</li>
+						<li>
+							<p>종류</p>
+							<div>
+								<select name="cake">
+									<option value="none">선택</option>
+									<option value="birthday">Birthday</option>
+									<option value="wedding">Wedding</option>
+									<option value="anniversary">Anniversary</option>
+									<option value="kids">Kids</option>
+									<option value="pets">Pets</option>
+								</select>
+							</div>
+						</li>
+					</ul>
+					<div class="memo">
+						<p>세부사항</p>
+						<textarea></textarea>
+					</div>
+					<div class="order_button">
+						<button type="button" onclick="">Order cake</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="content03">
+			<div class="inner">
+				<h4>SNS</h4>
+				<div class="sns_wrap">
+					<div class="vertical_box vertical_box01">
+						<div class="sns_box">
+							<a href="#">
+								<img src="./images/main/sns01.png" alt="sns" />
+							</a>
+						</div>
+					</div>
+					<div class="vertical_box vertical_box02">
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns02.png" alt="sns" />
+							</a>
+						</div>
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns03.png" alt="sns" />
+							</a>
+						</div>
+					</div>
+					<div class="vertical_box vertical_box03">
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns04.png" alt="sns" />
+							</a>
+						</div>
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns05.png" alt="sns" />
+							</a>
+						</div>
+					</div>
+					<div class="vertical_box vertical_box04">
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns06.png" alt="sns" />
+							</a>
+						</div>
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns07.png" alt="sns" />
+							</a>
+						</div>
+					</div>
+					<div class="vertical_box vertical_box05">
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns08.png" alt="sns" />
+							</a>
+						</div>
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns09.png" alt="sns" />
+							</a>
+						</div>
+					</div>
+					<div class="vertical_box vertical_box06">
+						<div class="sns_box">
+							<a href="javascript:;">
+								<img src="./images/main/sns10.png" alt="sns" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="sns_mobile">
+					<ul>
+						<a href="#">
+							<li>
+								<img src="./images/main/sns01.png" alt="sns" />
+							</li>
+						</a>
+						<a href="#">
+							<li>
+								<img src="./images/main/sns02.png" alt="sns" />
+							</li>
+						</a>
+						<a href="#">
+							<li>
+								<img src="./images/main/sns03.png" alt="sns" />
+							</li>
+						</a>
+						<a href="#">
+							<li>
+								<img src="./images/main/sns04.png" alt="sns" />
+							</li>
+						</a>
+						<a href="#">
+							<li>
+								<img src="./images/main/sns05.png" alt="sns" />
+							</li>
+						</a>
+						<a href="#">
+							<li>
+								<img src="./images/main/sns06.png" alt="sns" />
+							</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="inner">
+				<div class="box01">
+					<p>02-000-0000</p>
+					<p>kkim91899@gmail.com</p>
+					<address>서울시 구로구 구로4동</address>
+				</div>
+				<div class="box02">
+					<ul>
+						<li><a href="javascript:;"><img src="./images/main/kakao.png" alt="카카오톡" /></a></li>
+						<li><a href="javascript:;"><img src="./images/main/facebook.png" alt="페이스북" /></a></li>
+						<li><a href="javascript:;"><img src="./images/main/twitter.png" alt="트위터" /></a></li>
+						<li><a href="javascript:;"><img src="./images/main/instagram.png" alt="인스타그램" /></a></li>
+					</ul>
+					<p>2022 Man Making Cake - dessert shop. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+	</main>
+
+	<script>
+		$(function(){
+			var $slider = $('.slider'),
+				$firstSlide = $slider.find('li.slrider_on').first() // 첫번째 슬라이드
+				.stop(true).animate({'opacity':1},200); // 첫번째 슬라이드만 보이게 하기
+
+			function PrevSlide(){ // 이전버튼 함수
+				stopSlide();startSlide(); //타이머 초기화
+				var $lastSlide = $slider.find('li.slrider_on').last() //마지막 슬라이드
+				.prependTo($slider); //마지막 슬라이드를 맨 앞으로 보내기  
+				$secondSlide = $slider.find('li.slrider_on').eq(1)//두 번째 슬라이드 구하기
+				.stop(true).animate({'opacity':0},400); //밀려난 두 번째 슬라이드는 fadeOut 시키고
+				$firstSlide = $slider.find('li.slrider_on').first() //맨 처음 슬라이드 다시 구하기
+				.stop(true).animate({'opacity':1},800);//새로 들어온 첫 번째 슬라이드는 fadeIn 시키기
+			}
+			
+			function NextSlide(){ // 다음 버튼 함수
+				stopSlide();startSlide(); //타이머 초기화
+				$firstSlide = $slider.find('li.slrider_on').first() // 첫 번째 슬라이드
+				.appendTo($slider); // 맨 마지막으로 보내기
+				var $lastSlide = $slider.find('li.slrider_on').last() // 맨 마지막으로 보낸 슬라이드
+				.stop(true).animate({'opacity':0},400); // fadeOut시키기
+				$firstSlide = $slider.find('li.slrider_on').first()// 맨 처음 슬라이드
+				.stop(true).animate({'opacity':1},800);// fadeIn 시키기
+			}
+
+			startSlide(); // 자동 슬라이드 시작
+			
+			var theInterval;
+
+			function startSlide() {
+				theInterval = setInterval(NextSlide, 5000); //자동 슬라이드 설정
+			}
+
+			function stopSlide() { //자동 멈추기
+				clearInterval(theInterval);
+			}
+			
+			/*$('.slider').hover(function(){ //마우스 오버시 슬라이드 멈춤
+				stopSlide();
+			}, function (){
+				startSlide();
+			});*/
+		});
+	</script>
+
+	<script type="text/javascript" src="./js/wow.js"></script>
+	<script type="text/javascript" src="./js/wow.min.js"></script>
+	<!--wow-animate-->
+	<script>
+		wow = new WOW(
+		{
+			animateClass: 'animated',
+			offset:       100
+		}
+		);
+		wow.init();
+	</script>
+
+</body>
+</html>
+
