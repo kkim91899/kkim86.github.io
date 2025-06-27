@@ -1,0 +1,119 @@
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+	color:#000;
+}
+
+/*visual/제목/폰트크기 공통영역-----------------------*/
+.inner{
+	width:1460px;
+	margin:0 auto;
+}
+.standard_leftbox{
+	float:left;
+	/*width:49%;*/width:710px;
+}
+.standard_leftbox h1{
+	font-size:2.625rem;
+	font-weight:900;
+	margin-bottom:36px;
+}
+.standard_leftbox ul{
+	font-size:1.125rem;
+	font-weight:400;
+	margin-bottom:68px;
+}
+.button_box .standard_button{
+	text-align: center;
+	background:#fff;
+	margin-bottom:25px;
+	-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,75);
+	box-shadow:0 0 15px 0 rgba(0,0,0,75);
+	margin-left:3px;
+	width:170px;
+}
+.button_box .standard_button a{
+	font-size:1rem;
+	font-weight:700;
+	color:#000;
+	padding:6px 0;
+	display:block;
+}
+.standard_rightbox{
+	float:left;
+	/*width:51%;*/width:750px;
+	text-align:right;	
+}
+.standard_text_box{
+	margin-bottom:63px;
+}
+.standard_subtitle{
+	font-size:2.625rem;
+	font-weight:900;
+	margin-bottom:27px;
+}
+.standard_subtitle_content{
+	font-size:1.125rem;
+	font-weight:500;
+}
+.standard_object_text, .standard_object_image{
+	margin-bottom:20px;
+}
+.standard_object_text span{
+	margin-left:50px;
+}
+.standard_object_text span:nth-child(1){
+	margin-left:0;
+}
+@media all and (min-width:1280px) and (max-width:1550px){
+	.inner{
+		width:90%;
+	}
+	.standard_leftbox{
+		width:40%;
+	}
+	.standard_rightbox{
+		width:60%;
+	}
+}
+@media all and (max-width:1279px){
+	.inner{
+		width:90%;
+	}
+	br{
+		display:none;
+	}
+	br.no_out{
+		display:block;
+	}
+	.standard_leftbox{
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	.button_box .standard_button{
+		margin:0 auto 25px;
+	}
+	.standard_rightbox{
+		float:none;
+		width:100%;
+		text-align:center;	
+	}
+	.standard_object_text span:nth-child(1){
+		margin-left:0;
+	}
+}
+
+/*footer-----------------------*/
+footer{
+	background:#466C7C;	
+}
+footer div{
+	padding:40px 0;
+}
+footer div p{
+	font-size:1.063rem;
+	font-weight:200;
+	color:#fff;
+	text-align: center;
+	padding:3px 0;
+}
