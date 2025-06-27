@@ -1,0 +1,108 @@
+div.sub_common_next{
+	border:0px solid red;
+}
+div.sub_common_next ul{
+	border:0px solid orange;
+	display: flex;
+    justify-content: center;
+	margin:50px 0 200px;
+}
+div.sub_common_next ul li{
+	border:0px solid green;
+	text-align:center;
+	margin-right:30px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:18px;
+	color:#7c7c7c;
+	font-weight:500;
+}
+div.sub_common_next ul li:last-child{
+	margin-right:0;
+}
+div.sub_common_next ul li a{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:18px;
+	color:#7c7c7c;
+	font-weight:500;
+}
+div.sub_common_next ul li:nth-child(3) a{
+	color:#000;
+}
+div.sub_common_next ul li img{
+	padding-top:3px;
+}
+
+@media all and (min-width:600px) and (max-width:1279px){
+	div.sub_common_next{
+		border:0px solid red;
+	}
+	div.sub_common_next ul{
+		border:0px solid orange;
+		display: flex;
+		justify-content: center;
+		/*margin:10px 0 150px;*/
+		margin:1vh 0 15vh;
+	}
+	div.sub_common_next ul li{
+		border:0px solid green;
+		text-align:center;
+		margin-right:30px;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size:18px;
+		color:#7c7c7c;
+		font-weight:500;
+	}
+	div.sub_common_next ul li:last-child{
+		margin-right:0;
+	}
+	div.sub_common_next ul li a{
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size:18px;
+		color:#7c7c7c;
+		font-weight:500;
+	}
+	div.sub_common_next ul li:nth-child(3) a{
+		color:#000;
+	}
+	div.sub_common_next ul li img{
+		padding-top:3px;
+	}
+}
+
+@media all and (max-width:599px){
+	div.sub_common_next{
+		border:0px solid red;
+	}
+	div.sub_common_next ul{
+		border:0px solid orange;
+		display: flex;
+		justify-content: center;
+		/*margin:10px 0 100px;*/
+		margin:1.11vh 0 11.11vh;
+	}
+	div.sub_common_next ul li{
+		border:0px solid green;
+		text-align:center;
+		margin-right:15px;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size:12px;
+		color:#7c7c7c;
+		font-weight:500;
+	}
+	div.sub_common_next ul li:last-child{
+		margin-right:0;
+	}
+	div.sub_common_next ul li a{
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size:12px;
+		color:#7c7c7c;
+		font-weight:500;
+	}
+	div.sub_common_next ul li:nth-child(3) a{
+		color:#000;
+	}
+	div.sub_common_next ul li img{
+		padding-top:2px;
+		width:70%;
+	}
+}
