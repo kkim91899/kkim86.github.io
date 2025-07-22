@@ -103,6 +103,28 @@
   margin-top: 300px;
 }
 
+#detail-page .inner h2 {
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+#detail-page .inner ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#detail-page .inner ul li {
+  width: 32%;
+  margin-bottom: 30px;
+}
+#detail-page .inner ul li img {
+  border: 1px solid #ddd;
+}
+
 /*common-content-----------------------*/
 .common-content {
   margin-top: 187px;
@@ -267,6 +289,9 @@
     width: 100%;
     padding-top: 3.7%;
   }
+  #detail-page .inner ul li {
+    width: 49%;
+  }
 }
 @media all and (max-width: 599px) {
   #snet-hrd_content01 div.image_box {
@@ -321,5 +346,8 @@
   }
   .flex-image_box .flex-image6 {
     width: 48%;
+  }
+  #detail-page .inner ul li {
+    width: 100%;
   }
 }/*# sourceMappingURL=25-sub.css.map */

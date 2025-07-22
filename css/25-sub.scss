@@ -97,6 +97,31 @@
 		}
 	}
 }
+#detail-page{
+	.inner{
+		h2{
+			margin:0 auto;
+			margin-top:150px;
+			margin-bottom:80px;
+			font-size:30px;
+			font-weight:700;
+			color:#000;
+			text-align:center;
+		}
+		ul{
+			display:flex;
+			justify-content: space-between;
+			flex-wrap:wrap;
+			li{
+				width:32%;
+				margin-bottom:30px;
+				img{
+					border:1px solid #ddd;	
+				}
+			}
+		}
+	}
+}
 
 /*common-content-----------------------*/
 .common-content{
@@ -281,6 +306,15 @@
 			padding-top:3.7%;
 		}
 	}
+	#detail-page{
+		.inner{
+			ul{
+				li{
+					width:49%;
+				}
+			}
+		}
+	}
 }
 @media all and (max-width:599px){
 	#snet-hrd_content01 div.image_box{
@@ -340,4 +374,15 @@
 			width:48%;
 		}
 	}
+
+	#detail-page{
+		.inner{
+			ul{
+				li{
+					width:100%;
+				}
+			}
+		}
+	}
+
 }
